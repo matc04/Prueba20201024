@@ -16,20 +16,20 @@ Ejecutar el composer
 
 Despues de la ejecucion del composer editar el archivo .env si este no existe ejecutar la siguiente instruccion
 
-   $cp .env.example .env
+    $ cp .env.example .env
 
 Editar el archivo .env
 
-   $ vi .env
+    $ vi .env
 
 Y cambiar las siguientes lineas
 
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1           ----> DB_HOST=IP DE BASE DE DATOS
-  DB_PORT=3306                
-  DB_DATABASE=homestead       ----> DB_DATABASE=NOMBRE_BASE_DATOS
-  DB_USERNAME=homestead       ----> DB_USERNAME=USUARIO_MYSQL
-  DB_PASSWORD=secret          ----> DB_PASSWORD=PASS_USUARIO_MYSQL
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1           ----> DB_HOST=IP DE BASE DE DATOS
+    DB_PORT=3306                
+    DB_DATABASE=homestead       ----> DB_DATABASE=NOMBRE_BASE_DATOS
+    DB_USERNAME=homestead       ----> DB_USERNAME=USUARIO_MYSQL
+    DB_PASSWORD=secret          ----> DB_PASSWORD=PASS_USUARIO_MYSQL
 
 (SI LAS TABLAS factura, detalle_factura, producto, NO EXSITEN, CREARLAS )
 
@@ -39,11 +39,11 @@ Una vez actualizado el archivo, ejecutar
 
 Despues de actualizar la Base de datos, ejecutar
 
-   $ php artisan serve
+    $ php artisan serve
 
 Y con un browser ver la siguiente direccion
 
-   http://localhost:8000/listaFactura
+    http://localhost:8000/listaFactura
 
 Se vera una lista con las facturas existentes, si se quiere ver el detalle hacer click sobre el numero de factura
 
