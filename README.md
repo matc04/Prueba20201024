@@ -20,7 +20,7 @@ Despues de la ejecucion del composer editar el archivo .env si este no existe ej
 
 Editar el archivo .env
 
-   $vi .env
+   $ vi .env
 
 Y cambiar las siguientes lineas
 
