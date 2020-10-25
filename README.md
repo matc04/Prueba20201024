@@ -39,6 +39,7 @@ Una vez actualizado el archivo, ejecutar
 
 Despues de actualizar la Base de datos, ejecutar
 
+    $ php artisan key:generate
     $ php artisan serve
 
 Y con un browser ver la siguiente direccion
