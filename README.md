@@ -4,7 +4,7 @@ Pasos para el despliegue de la prueba
 
 1- Clonar el repositorio
 
-    $ git clone https://github.com/matc04/Prueba20201024
+    $ git clone https://github.com/matc04/Prueba20201024.git
 
 Una vez creado el directorio con el repositorio, dirigirse a el
 
